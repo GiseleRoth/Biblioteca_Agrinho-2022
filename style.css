@@ -1,0 +1,263 @@
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0px auto;
+}
+body{
+    background: linear-gradient(#ffffffe7 , #e2e2e0);
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    position: absolute;
+    width:10%; 
+    top: 5px;
+    left: 220px;
+}
+.titulo{ 
+    width: 100%;
+
+}
+/*Inicio*/
+
+nav{
+    position: absolute;
+    top: 50px;
+    right: 300px; 
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #08059e;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #00cfc5ea;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    color: #060258;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+    margin: 50px auto;
+}
+.texto-inicio p {
+    text-align: left;
+    font-size: 25px;    
+    padding: 0.5em;
+}
+.foto1{
+    float: right;
+    width: 25%;
+}
+
+.foto3{
+    float: right;
+    width: 45%;
+}
+/*Livros*/
+#cor-da-letra{
+    margin-top: 50px;
+    color: #090083;
+    font-size: 50px;
+    width: 800px, center;
+    text-align: left;
+    text-shadow: 2px 2px 2px #004a50;
+}
+.cor-nome{
+    color: aliceblue;
+}
+.pesquisa-de-livros{
+    width: 940px;
+    margin-top: 5px;
+}
+#searchbar{
+    margin-left: 15%;
+    padding:15px;
+    border-radius: 10px;
+  }
+
+  input[type=text] {
+     width: 30%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+
+  /* When the input field gets focus,
+       change its width to 100% */
+  input[type=text]:focus {
+    width: 70%;
+  }
+
+ #list{
+   font-size:  1.5em;
+   margin-left: 90px;
+  }
+
+.livroN{
+  display: list-item;
+  margin-top: 10px;
+      
+ } 
+ .material-symbols-outlined {
+    padding: 0;
+  }
+ h4{
+    text-align: left;
+    margin-left: 50px;
+    color: #01075f;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 100px;
+    margin: 50px auto;
+    text-shadow: 2px 2px 2px #050035;
+}
+.paragrafo-livro1{
+    text-align: left;
+    font-size: 25px;    
+    padding: 0.5em;
+}
+.paragrafo-livro2{
+    text-align: left;
+    font-size: 20px;    
+    padding: 0.5em;
+}
+/*Sinopse*/
+
+main{
+    margin-top: 50px;
+}
+#S{
+    width: 30%;
+    font-size: 20px;  
+      border: 2px solid #000000 ;
+    border-radius: 20px;
+}
+.sinopse{
+    width: auto;
+    text-align: center;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+section main li p{
+    font-size: 30px;
+}
+h3{
+    font-size: 50px;
+    top: 20px;
+    color: rgb(11, 2, 92);
+}
+.sinopse li {
+    top: 20px;
+    font-size: 30px;
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+#Texto-sinopse li {
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 25px;
+    width: auto;
+    padding: 50px;
+    border: 1px dotted #00e1ff ;
+    border-radius: 20px;
+}
+#Texto-sinopse :hover {
+    border: 2px solid #01abb1 ;
+}
+#Texto-sinopse li :hover {
+    border: 1px solid #ffffff ;
+}
+h5{
+    font-size: 30px;
+    color: #0d0085;
+    margin-bottom: 10px;
+}
+/* 10*/
+footer{
+    text-align: center;
+    background: url(10.jpg);
+    padding: 50px 0;
+}
+.copyright{
+    font-weight: bold;
+    color: #000000;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+.logo2{
+    width: 10%;
+}
+@media screen and (max-width: 480px)  { .titulo{
+    position: relative;
+    width: 110%;
+    top: 55px;
+}
+.caixa
+{ width: 100%;
+  text-align: center; }
+.texto-inicio{
+    left: 50px;
+}
+.logo{
+    left: 5px;
+    width: 25%;
+} 
+#Menu{
+    position: relative;
+    font-size: 10px;
+    top: 40px;
+    left: 50px;
+}
+#S{
+    width: auto;
+}
+#Texto-sinopse li{
+    margin-left: 5px;
+    margin-right: 0px;
+}
+.sinopse li {
+    width: auto;
+    left: 80px;
+}
+ ::selection {
+
+    top: 500px;
+ }
+ footer{
+    text-align: center;
+    background: url(10.jpg);
+    padding: 50px 0;
+    width: 110%;
+}
+.copyright{
+    font-weight: bold;
+    color: #000000;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+.logo2{
+    width: 10%;
+}
+.foto1{
+    width: 40%;
+}
+.foto3{
+    width: 50%;
+    margin-left: 5px;
+}
+}
